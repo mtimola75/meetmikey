@@ -1,0 +1,21 @@
+.column {
+    
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+
+h1 {
+    padding-left:150px 
+}
+
+h2 {
+    padding-left: 150px;
+}
+  
+/* Clear floats after image containers */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
